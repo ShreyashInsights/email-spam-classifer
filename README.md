@@ -1,6 +1,6 @@
-# Email Spam Generation using NLP
+# Email Spam Classifier
 
-This project is aimed at generating email spam using Natural Language Processing (NLP) techniques. It utilizes machine learning algorithms and text generation models to create convincing spam emails. 
+This project is aimed at developing a machine learning model to classify emails as either spam or legitimate (ham). It utilizes Natural Language Processing (NLP) techniques and classification algorithms to achieve this task.
 
 ## Table of Contents
 
@@ -12,13 +12,13 @@ This project is aimed at generating email spam using Natural Language Processing
 
 ## Introduction
 
-Email spamming is a widespread issue in the digital world. While the primary aim of this project is not to promote unethical practices, it serves as a demonstration of text generation capabilities and the potential risks associated with it. The generated spam emails are for educational and research purposes only.
+Email spam remains a prevalent issue in the digital world, and efficient classification methods are necessary to filter out unwanted emails. This project presents a solution by employing machine learning algorithms to automatically classify emails as spam or legitimate.
 
 ## Installation
 
 1. **Clone the repository:**
    ```
-   git clone https://github.com/your_username/email-spam-nlp.git
+   git clone https://github.com/ShreyashInsights/email-spam-classifier.git
    ```
 
 2. **Install dependencies:**
@@ -29,16 +29,16 @@ Email spamming is a widespread issue in the digital world. While the primary aim
 ## Usage
 
 1. **Prepare your dataset:**
-   - You will need a dataset of legitimate emails to train the model. Ensure that you have a significant number of emails for better model performance.
+   - You will need a dataset of emails labeled as spam or legitimate. Ensure that your dataset is properly labeled for training the model.
 
 2. **Train the model:**
-   - Use the provided scripts to preprocess your dataset and train the NLP model.
+   - Use the provided scripts to preprocess your dataset and train the classification model. Experiment with different algorithms and hyperparameters to achieve the best performance.
 
-3. **Generate spam emails:**
-   - After training, use the trained model to generate spam emails. You can adjust the parameters to control the quality and quantity of generated emails.
+3. **Evaluate model performance:**
+   - After training, evaluate the model's performance using appropriate evaluation metrics such as accuracy, precision, recall, and F1-score.
 
-4. **Evaluate results:**
-   - Evaluate the generated emails to understand the effectiveness and persuasiveness of the spam content. 
+4. **Make predictions:**
+   - Use the trained model to make predictions on new, unseen emails. This will help classify incoming emails in real-time.
 
 ## Contributing
 
@@ -56,5 +56,3 @@ Contributions are welcome! If you'd like to contribute to this project, please f
 This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
 
 ---
-
-Feel free to customize this README according to your project's specifics and add any additional sections or information you find necessary.
